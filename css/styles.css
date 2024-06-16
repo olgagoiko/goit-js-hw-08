@@ -1,36 +1,27 @@
-
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-ul.gallery {
-    list-style-type: none;
+.gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    padding: 0;
-    margin: 0;
-}
-
-.gallery-item {
-    flex: 1 1 calc(33.333% - 10px);
-    box-sizing: border-box;
-}
-
-.gallery-link {
-    display: block;
-    width: 100%;
-    height: 100%;
+    list-style-type: none;
+    width: 1440px;
+    height: 696px;
+    background: #fff;
+    padding: 24px 156px;
+    gap: 24px;
 }
 
 .gallery-image {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+    width: 360px;
+    height: 200px;
+    margin-bottom: 0;
 }
 
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1112px;
+    height: 640px;
+    box-shadow: 0 4px 4px 0 rgba(7, 7, 7, 0.25);
+    padding: 28px 164px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
